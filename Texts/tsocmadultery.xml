@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The xiii. Chapter. How shamefull and wicked a thing aduoutrye is, and how it hath of olde tyme bene punished therto.</title>
+        <author ref="#HenrichBullinger">Henrich Bullinger</author>
+        <editor>Dr. Jeffrey C. Witt</editor>
+        <editor>Ema-Joanne M. Brauchler </editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>The xiii. Chapter. How shamefull and wicked a thing aduoutrye is, and how it hath of olde tyme bene punished therto.</title>
+          <date when="2020-08-06">August 6, 2020</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <!--written by Heinrich Bullinger. translated by Myles Coverdale. published in London.-->
+        <listWit>
+          <witness xml:id="L" n="tsocmadultery.xml">Edition, Myles Coverdale, year</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="Texts/tsocmadultery.xml"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2020-08-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="30"/>
+      </div>
+    </front>
+    <body>
+      <div>
+        <p> Translation of The xiii. Chapter: How shameful and wicked a thing adultery is, and how
+          it hath of old time been punished thereof. <pb n="37" ed="#L"/>
+          <cb n="A" ed="#L"/> Title: The thirteenth chapter. The shame and wickedness of adultery,
+          and how it was punished in the Old Testament. </p>
+        <p> Frivolous sexual activity, known as prostitution, has usually been understood as an
+          abomination among all honest people throughout the whole world. These diverse peoples have
+          esteemed adultery to be more shameful than frivolous sexual activity. Adultery should
+          utterly be abhorred. All virtuous rulers, even if they are heathens, have punished
+          adultery with the pain of death. </p>
+        <p>
+          <note type="marginalnote">(Marginal note 1. Left) How God plagued adultery before the law
+          was written. </note> 
+          There was a time when <name>Abraham</name> went to Egypt with <name>his wife Sara</name>. The
+          Egyptians thought that <name>Sara</name> was <name>Abraham’s</name> sister. They took her and brought her to court
+          to <name>King Pharaoh</name>. <cb n="B" ed="#L"/> <!-- (Fol. Xxxvit) --> The Lord punished <name>Pharaoh</name> and his house
+          with plague because of <name>Sara</name>. He had not yet committed any sexual acts with her, what he
+          did was out of ignorance. <note type="marginalnote">(Marginal note 2. Right) <ref>Genesis
+            xii</ref></note> When he understood that <name>Sara</name> was <name>Abraham’s</name>wife, <name>Pharaoh</name> sent for <name>Abraham</name> and
+          said, <quote>“Why have you done this to me? You did not tell me that she is your wife. There is
+          your wife, take her and go your way.”</quote> Considering this passage, we must understand that
+          God is very displeased with willfully committed adultery. In the <ref>twentieth chapter</ref>, it is
+          written that in Gerar, <name>Abimelech who was a Philistine King</name>, took <name>Abraham’s</name>
+          wife as <name>Pharaoh</name> had done before. Then, <name>Abimelech</name> had a dream where God said to him,
+          <quote>“Behold you are a dead man, the woman who you have taken is another man’s wife.”</quote> And
+          <name>Abimelech</name> did not commit any deed with her, no more than <name>Pharaoh</name> had done before. God also
+          said afterward, <quote>“If you do not deliver her again to <name>Abraham</name>, you will die the death along
+          with everything that is yours.”</quote> Didn’t God with these words declare manifestly what
+          sentence and judgement he gives to adulterers? Whereas <name>Joseph</name> was provoked by his… 
+          <pb n="38" ed="#L"/>
+          <cb n="A" ed="#L"/> Lord’s wife. She wanted him to accomplish her will. She said, <quote>“My Lord
+          has committed all things to me, saying that only for you am I a married wife. How should I
+          then cause such great pain and sin against God?”</quote> <ref>Genesis xxxix</ref>. </p>
+        <p> <ref>In the xxxi. Chapter of Job,</ref> <name>Job</name> said, <quote>“If my heart lusts after my neighbor’s wife,
+          or if I laid with her at his door, let my wife become another man’s harlot, and let other
+          men lie with her.”</quote> <name>Job</name> knew that the way that he measured the situation was reasonable. He
+          had to give his wife to other men if he broke his wedlock. He did not do that, but he
+          understood that men should serve him the same way that he served them. Therefore, <name>Job</name> understood that
+          the punishment of adultery was a meat that he could not chew. Let every man confide in
+          himself how loathe another man would be to touch his wife, so that he also will not meddle
+          with adultery. The next passage in <ref>Job</ref> stated: <quote>“For this is a wickedness and a sin that
+          belongs to the judge. It is a fire that consumes everything and plucks up a man’s
+          substance by the roots.”</quote> With these words <name>Job</name> acknowledged that adultery is a wicked vice.
+          By saying that it is a sin that pertains to the judge, he recognizes that it is right to
+          punish the grievous sin. <cb n="B" ed="#L"/> <quote>“Which be in authority (if they were not
+          adulterers themselves)”</quote> Adultery is a fire that consumes altogether body, honesty,
+          good, mind, heart and welfare. This was understood, exercised and practiced before the law
+          among the people of Israel under the leadership of <name>Moses</name>. </p>
+        <p> According to this law, God appointed a certain punishment for adultery among other
+          transgressions. He said in <ref>Leviticus ch. XX</ref>, <quote>“Whoever commits adultery with any man’s wife
+          will die the death. Both the man and the woman will die, because he broke wedlock with his
+          neighbor’s wife.”</quote> <ref>Deuteronomy xxii</ref>. Confirms the same law again. <note type="marginalnote"
+            >(Marginal note on the right): The punishment for adultery is in the law of God. This
+            explains how adultery was punished among heathens. </note>
+        </p>
+        <p> Adultery was not punished like this only among the people of Israel either. Heathens
+          also used execution as punishment. I will now declare stories of this from credible writers.
+          When the Lepretans were convicted of adultery, they were bound and carried through the
+          city. After, if they still lived, they were despised. They then lived with shame and
+          confusion because they were reputed as people desolate of all honesty. </p>
+        <p> Among the Locrensians, <name>Zaleucus</name> forbid adultery with the threat of great punishment.
+          Transgressors that were caught would have both of their eyes thrust out. And when… 
+          <pb n="39" ed="#L"/>
+          <cb n="A" ed="#L"/> His own son was taken in adultery, he then allowed the judges to
+          remove one eye, and the other he removed himself as his father. In the days of our
+          forefathers, the noble Germans (before they became Christians), punished a woman who broke
+          wedlock by keeping her under the power and authority of her husband. Then, her
+          husband would strip her of her clothes, thrust her out of his house, and beat her openly
+          with rods in the city or town, even before her friends. <name>Corneliu Tacitus</name> wrote, <quote>“Among
+          them, no one laughed at the misdeeds. To defile or be defiled was named among the laws as
+          something one should not do according to the course, manner and custom of the world.”</quote> </p>
+        <p> <name>Mark</name> knew the state that the people were in. We now laugh at all sin and vice.
+          Especially at abominations like fighting, war, whore-hunting, adultery, masking, <!-- momynge, -->
+          drunkenness, gluttony and uncleanliness. This is the manner in which we follow the
+          Lord’s word. </p>
+        <p> <name>Opelius Macrinias, the Emperor of Rome</name>, used to punish adulterers with fire. When he
+          found an adulterer… <cb n="B" ed="#L"/> He immediately had them bound and burned to death.
+          <name>Julius Capitolianus</name> wrote this about him. Among the Romans there was a common law (titled
+          <ref>Lex Julia</ref>) that stated that adulterers are to be executed by sword. The same law applied
+          in <name>Hielos'</name> time. We know this because he wrote that a certain young man and a married
+          wife were judged and executed with the sword because of their affair. The
+          Christian emperors received the same law (<ref>Lex Julia</ref>) de stup. Et. Adult. <name>Justinian</name>
+          approved it. Lab. Iiii. Tit. Xviii.de publici idiciis. </p>
+        <p> In Bamburgh, transgressors are judged, and punished with death. If a married man brought
+          a mortal accusation upon another man for any filthy act that he possibly committed with
+          his wife, and thus convinced the judge thereof, the adulterer would be punished with death
+          by sword. This is the sentence from imperial law. If a woman is an adulteress, she will
+          forfeit her dowry, and all of her goods to her husband. As perpetual penance, punishment
+          relied on the prisons. Adulteresses were sometimes locked up in prison. We can see the
+          same occur in… <pb n="40" ed="#L"/>
+          <cb n="A" ed="#L"/>
+          <note type="marginalnote">Marginal Note: left  The law imperial The judicial laws
+            of the holy empire of Rome.</note> <name>Emperor Charles V</name> decreed these laws in the year 1519 and 1522
+          in Augsburg and in Begescinge. If a married man accused another man of adultery with
+          his wife and the married man prevails in the case, the sentence against the adulterers
+          will be punished according to the determination of our forefathers, and our Imperial laws.
+          We have already declared what the imperial laws require as punishment. </p>
+        <p>
+          <note type="marginalnote">Marginal note: left Why adultery was punished with
+            death.</note> I’m sure the punishments that I deem necessary for adultery will cause some uproar
+          among men. They will likely marvel at it and believe that the laws are intolerable.
+          However, if these men would consider what marriage really is, separate from seemingly
+          cruel customs, and what adultery is, and then what follows it, they would not gawk at the
+          punishment. Adultery is a destruction and high dishonor of the ordinance of God. It is a
+          wickedness that originates from the devil, and idleness of flesh. Adultery is shameful
+          unfaithfulness. It is willful promise-breaking, and it is perjury. May every man consider
+          the chapters about/before (wc) Wedlock, and about how it is the ordinance of God. When
+          both parties are… <cb n="B" ed="#L"/> night they will not be divided. <name>Paul</name>
+          said that <quote>“adultery is a work of the flesh.”</quote> Married people make a perpetual covenant.
+          They call upon God, and they ask Him to record their union before the whole congregation.
+          They promise truth, and they say verbally that they will have one another. If it was only
+          a small sin to dissemble, to break, to destroy and to tread under foot of the truth given
+          before God and church with nothing to regard honesty and faith, then I must admit that the
+          punishment of death would be too rigorous. But, if it is just to punish unfaithful
+          perjury, the despising and contempt of God and honesty, then the punishment of adultery is
+          right and equal. </p>
+        <p> If the loss of a good thing is halved after estimation of the owner, then (regarding
+          this life) there is no greater damage than for a man to lose his own body. It is certain
+          that both people are married, but they are one body. As <name>Paul</name> says, the husband has no
+          power of his own body, but the wife does. The wife has no power… <pb n="41" ed="#L"/>
+          <cb n="A" ed="#L"/> Over her own body, but the husband does. Therefore, the people who
+          commit adultery steal and rob the other of their own body, their principle and best good.
+          What honest person would like to find their spouse stealing their treasure, what could
+          suffice for such a loss of goods, the robbery by an adulterer of their married spouse that
+          readily dishonors them. </p>
+        <p> Both of these vices therefore (theft and adultery, noted by <name>Salomon</name> in the <ref>Proverbs</ref>)
+          balance one against the other and shows how the adulterer commits an extremely heinous
+          crime. <note type="marginalnote">Marginal note right: Adultery and theft of spouses to one
+            another according to <name>Salomon</name>.</note> Theft is not as despised when one is hungry and
+          steals to feed himself. When a man steals, he must restore what he stole seven times over.
+          He that is so far from reason as to break wedlock with another man’s wife either destroys
+          himself or gets himself stripes and shame. Shame may never be wiped away. The wrath of
+          jealousy of the husband, if the husband has time to revenge himself, cannot be negotiated
+          with prayer. Although you may give him your regards, he will not receive them. Every man
+          understands this comparison. Although a man’s good is stolen… <cb n="B" ed="#L"/> unless
+          it is restored to him again without harm, he will wonder if it was done happily through
+          poverty. If a man takes his wife in adultery, he will not be pacified. Adultery is
+          a beastly and wicked thing. </p>
+        <p> If a man takes a thief with the demeaner, but he has no power to avenge himself and to
+          slay the thief he might not avenge himself. But if a man finds an adulterer with his spouse, he may avenge
+          himself. Although he would shame or kill the adulterer or adulteress, he will not
+          be punished for their deaths. Of all the words that men understand, adultery is the vice
+          that is most grievous before God and before all indifferent judges. Before this, <name>Salomon</name>
+          also said, <quote>“May a man take fire in his bosom and his clothes be not unwrinkled? Or can one
+          step on hot coals without hurting his feet? Even so, whoever goes to his neighbor’s wife
+          and touches her cannot remain undefiled.”</quote> <name>Salomon</name> declared the dangers of this great vice,
+          threatening the people that think (like fools) to keep their adultery a secret and think
+          they will not be punished. </p>
+        <p> It serves our purpose to alter adultery’s great inheritance… <pb n="42" ed="#L"/>
+          <cb n="A" ed="#L"/>
+          <cb n="B" ed="#L"/> [Repeat of pg. 41: skipped] <pb n="43" ed="#L"/>
+          <cb n="A" ed="#L"/> So that the right parties are disinherited. Often, an adulteress has
+          children from an adulterer. Usually, these unholy children would inherit all of the goods of
+          the woman's lawful husband unlawfully. The man who did not commit adultery
+          would then lose his honor, his skills, his body and his goods. The adulterer defiles the
+          wife who’s body is not her own, and it is unlawful for the children to take the true
+          husbands goods away. If this is not a great wrong or wickedness, do not worry. A man may
+          affirm that this is vicious enough, however adultery is horrible among men and women. Yet
+          with women, it is often hurtful and detestable. Besides that, the adulteress alters
+          inheritance as I said before with false promises, and a shameful disease that plagues and
+          withdraws and steals from the right heirs. The adulteress burdens her poor husband with
+          great shame, great travesty, labor, sorrow and pain when he raises those adulterous
+          children that are not his own. Moreover, the adulteress dishonors her father and her
+          mother, her kin, her children (even those that are lawful). All of them must be ashamed of
+          her, and all of them will be doubted in the world whether they were lawfully born or not.
+          Therefore, when these people speak of their mother or hear her name, they… 
+          <cb n="B" ed="#L"/> are abashed or ashamed. Adulteresses defile their husbands and destroy their
+          reputation even though their husbands are honest and virtuous men. The virtuous and honest
+          men are the occasion for which kin come together and are close. However, these innumerable
+          confusions such as adultery shame, hurt, dishonor, and make filthy all of an adulteress’s
+          kin. These consequences follow the abominable adultery. I will now pass over murders,
+          polygamy, treason, manslaughter, battles, and wars to ensure that I show that
+          adultery destroys both country and people. In the ancient and noble old time, people
+          righteously pondered and considered adultery, and they appointed the punishment of death
+          for adulterers. We hear how adulterers excuse their own vice and ponder how reasonably
+          they will work. Adulterers would say, ‘Although god forbid adultery under pain of death,
+          the same punishment is not executed, performed or practiced. In no place it appears that
+          adulterers were put to death. <name>David</name> was an adulterer and he did not receive any
+          punishment.’ Lord Christ himself abrogated and dissolved the punishment of adultery. He
+          commanded the woman (taken in adultery) who was to be put to death, to go her way. For
+          when… <pb n="44" ed="#L"/>
+          <cb n="A" ed="#L"/> no man had condemned her, he also let her go <ref>(Johan. VIII)</ref>. </p>
+        <p> To that I will answer. God in his law expressed how he esteemed adultery and how he
+          would have it punished. <note type="marginalnote">Marginal note right: Death was the
+            punishment for adultery. </note> Now if we do not follow God’s commandment according to
+          the same law, then it is never better to return to the law of God.
+          Nevertheless, the people from the old-time punished adultery with the pain of death, as it
+          is sufficiently proved by the stones. Therefore, the objection that adulterers make is
+          vain. All sentences and judgements have been executed and practiced because of adultery
+          according to holy scripture, thus it is no marvel. The Bible is not a register of untruths
+          about this matter, and wickedness is a reason for execution. Is it not evident enough what
+          it was like to have gone to <name>Susanna</name>? <name>David</name> committed adultery once in his life, which
+          brought his life into great turmoil and murder. He caused not only his faithful servant
+          <name>Bria</name>, but other noble peoples to be slain. Behold, what occasion does adultery give? What
+          comes of it? It is true that he was not stoned to death. But what did happen to him? Even
+          as he… <cb n="B" ed="#L"/> Dishonored another man’s child, he brought shame and wickedness
+          to his own children while he lived. <name>Ammon</name> defloured <name>Thamar</name>, his natural sister. These two
+          people were both <name>David’s</name> children. <name>Absalom</name> miserably slayed <name>Amon</name>, his brother, for
+          committing such a wicked crime with his sister <name>Thamar</name>. Not long after, <name>Absalom</name> drove <name>David</name>
+          out of his realm and then shamefully he laid with father’s wives. What followed was a
+          horrible, great slaughter. <name>Absalom</name> was killed along with thousands more of the common
+          people. Let every man ponder well by himself whether <name>David’s</name> was a lesser punishment.
+          <name>David</name> preferred to meddle with women rather than to prevent the death of many,
+          and the misery and sorrow. Therefore, <name>David</name> was punished worse than if he had been stoned
+          to death. Let us all know that no man can escape the hand of God, although the world did
+          not lay a hand on him. God punishes nonetheless, and often sorer than otherwise when he
+          does it not on Earth but in a different world. </p>
+        <p>
+          <note type="marginalnote">Marginal note right: The Adulterers…</note> They make Christ the
+          lord a maintainer of adulterers, it is a… <pb n="45" ed="#L"/>
+          <cb n="A" ed="#L"/>
+          <note type="marginalnote">Marginal note left: brought before Christ. </note> Plain and
+          evident shame. Christ never provided liberty because of sin. He said, <quote>“I am not here to
+          break the law, but to fulfill it.”</quote> <quote>Paul</quote> said, <quote>“To the righteous there is no law given, but
+          to the <!-- burghteous and --> disobedient, to whore mongers, to people who perjure, to liars
+          and blasphemers.”</quote> To the Galatians he said, <quote>“Walk in the spirit so you are not under the
+          law.”</quote> Therefore, as much as adulterers walk in the flesh and not in the spirit, they are
+          under the law. The lord does not punish them using the law on Earth. From the story in <ref>Job
+          viii</ref>. We must consider that the Lord said to the wife, ‘woman has no man condemned
+          you/them?’ She responded, ‘No man.’ He answered, ‘Neither do I condone them.’ With this
+          answer before her, she went before the judges. As much as he was not common to give a
+          sentence as a judge, to save her, he would not condemn her. Therefore, Jesus did not
+          meddle with the law or the act. </p>
+        <p> The Lord came to have mercy upon sinners, and to call for repentance. Therefore he also
+          said to this woman, ‘Go your way and sin no more.’ With these words, the Lord warned all
+          that are tangled with adultery to cease from here forward and to amend. God happily has
+          mercy on them, and takes from them the same dishonor, pain and punishment which they have
+          greatly deserved. God has no delight in the destruction of a poor sinner. He would rather
+          that they convert and live. But if they will not turn, if his will needs to be first and
+          set before his shameless forehead, God watches over the wickedness and would say, Hier, v.
+          ‘In the desire of uncleanly lust, they are becoming like old stallions, as everyone
+          lusts after his neighbor’s wife. Should I not punish this? Adulterers take to nothing
+          other than how God will plague them for shameless acts of wickedness and whoredom. For
+          abomination, vice, perjury, and shameful matters God moves about them as stated. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

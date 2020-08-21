@@ -1,0 +1,25 @@
+.textwrapper {
+  counter-reset: tei-p;
+}
+
+tei-div {
+  display: block;
+}
+tei-p {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+tei-lb {
+  display: none;
+}
+tei-cb {
+  display: none;
+}
+tei-pb {
+  display: none; 
+}
+tei-p::before {
+  counter-increment: tei-p;
+  content: counter(tei-p);
+}

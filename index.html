@@ -1,0 +1,104 @@
+<html>
+    <head> <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="CETEIcean.css">
+        <link rel="stylesheet" href="tei.css">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="CETEI.js"></script>
+        <script>
+          $(document).ready(function(){
+            $("button").click(function(e){
+              e.preventDefault()
+
+              if ($(this).attr("id") === "text"){
+                const url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/cod-u2dgeg_UD1xh4-7yMcbW.xml"
+                getText(url, "maincontent") 
+                clearPanel("second-panel")
+                }
+              else if ($(this).attr("id") === "bibliography"){
+                const url="https://api.zotero.org/groups/2472209/items/top?format=bib"
+                getHTML(url, "maincontent")
+                clearPanel("second-panel")
+              }
+              else if ($(this).attr("id") === "translation"){
+                const url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/en_UD1xh4-7yMcbW.xml"
+                getText(url, "maincontent") 
+                clearPanel("second-panel")
+              }
+              else if ($(this).attr("id") === "text-translation"){
+                const text_url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/cod-u2dgeg_UD1xh4-7yMcbW.xml"
+                const translation_url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/en_UD1xh4-7yMcbW.xml"
+                getText(text_url, "maincontent")
+                getText(translation_url, "second-panel")
+              }
+              else if ($(this).attr("id") === "adulterytext"){
+                const url="Texts/tsocmadultery.xml"
+                getText(url, "maincontent") 
+                clearPanel("second-panel")
+              }
+
+              else{
+                clearPanel("second-panel")
+              }
+
+
+
+           })
+         })
+         const clearPanel = function(divname){
+          document.getElementById(divname).innerHTML = ""   
+
+         }
+         const getHTML = function (url){
+           $("#maincontent").load(url);
+         } 
+          const getText = function (url, divname){
+          let c = new CETEI();
+          let behaviors = {
+            "tei": {
+              "head": function(e) {
+                let level = document.evaluate("count(ancestor::tei-div)", e, null, XPathResult.NUMBER_TYPE, null);
+                let result = document.createElement("h" + (level.numberValue>7 ? 7 : level.numberValue));
+                for (let n of Array.from(e.childNodes)) {
+                  result.appendChild(n.cloneNode());
+                }
+                return result;
+              },
+              "lb": ["<br>"],
+              /* Insert a <p> with the content of the <pb>'s @n attribute inside it
+                 Add a line above with CSS */
+              "pb": ["<p class=\"break\">$@n</p>"],
+            }
+          };
+          c.addBehaviors(behaviors);
+          c.getHTML5(url, function(data){
+            document.getElementById(divname).innerHTML = ""           
+            document.getElementById(divname).appendChild(data)
+          });}
+        </script>
+        </head> 
+    <body>
+      <div><h1>Exploring Bullinger</h1></div>
+        <div class="navbar">
+            <button id="text" href="text">text</button>
+            <button id="adulterytext" href="adulterytext">adultery text</button>
+            <button id="translation" href="translation">translation</button>
+            <button id="text-translation" href="text-translation">text-translation</button>
+            <button id="about" href="about">about</button>
+            <button id="article" href="article">article</button>
+            <button id="bibliography" href="bibliography">bibliography</button>
+                        
+        </div>
+      <div style="display: flex;">
+        <div id="maincontent" class="textwrapper">
+
+        </div>
+        <div id="second-panel" class="textwrapper">
+          
+        </div>
+      </div>
+    </body>
+</html>
+
