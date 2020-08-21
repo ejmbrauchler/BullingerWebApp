@@ -12,9 +12,15 @@
         <script src="CETEI.js"></script>
         <script>
           $(document).ready(function(){
-            $("button").click(function(e){
+            $(".navbarlink").click(function(e){
               e.preventDefault()
-
+            if ($(this).attr("id") === "landing"){
+              showPanel("landingcontent")
+              clearPanel("second-panel")
+              clearPanel("maincontent")
+            }
+            else{
+              hidePanel("landingcontent")
               if ($(this).attr("id") === "text"){
                 const url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/cod-u2dgeg_UD1xh4-7yMcbW.xml"
                 getText(url, "maincontent") 
@@ -45,7 +51,7 @@
               else{
                 clearPanel("second-panel")
               }
-
+            }
 
 
            })
@@ -54,6 +60,13 @@
           document.getElementById(divname).innerHTML = ""   
 
          }
+        const hidePanel = function(divname){
+          document.getElementById(divname).style.display = "none"
+        }
+
+        const showPanel = function(divname){
+          document.getElementById(divname).style.display = "block"
+        }
          const getHTML = function (url){
            $("#maincontent").load(url);
          } 
@@ -83,18 +96,39 @@
         </script>
         </head> 
     <body>
-      <div><h1>Exploring Bullinger</h1></div>
-        <div class="navbar">
-            <button id="text" href="text">text</button>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand navbarlink" id="landing">Exploring Bullinger</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a class="navbarlink" id="text">Text</a></li>
+              <li><a class="navbarlink" id="adulterytext">Adultery Text</a></li>
+              <li><a class="navbarlink" id="translation">Translation</a></li>
+              <li><a class="navbarlink" id="text-translation">Text-Translation</a></li>
+              <li><a class="navbarlink" id="about">About</a></li>
+              <li><a class="navbarlink" id="article">Article</a></li>
+              <li><a class="navbarlink" id="bibliography">Bibliography</a></li>
+            </ul>
+          </div>
+            <!-- <button id="text" href="text">text</button>
             <button id="adulterytext" href="adulterytext">adultery text</button>
             <button id="translation" href="translation">translation</button>
             <button id="text-translation" href="text-translation">text-translation</button>
             <button id="about" href="about">about</button>
             <button id="article" href="article">article</button>
             <button id="bibliography" href="bibliography">bibliography</button>
-                        
+                         -->
+        </nav>
+        <div id="landingcontent" class="jumbotron" style="background-color: white">
+          <h1>Exploring Bullinger</h1>  
+          <h3>By Ema-Joanne Brauchler</h3>
+          <p>Summer 2020</p>
+          <p>Generously Funded by The Loyola Center for Humanities</p>
+          <p>Supervised by Dr. Jeffrey C. Witt</p>
         </div>
       <div style="display: flex;">
+        
         <div id="maincontent" class="textwrapper">
 
         </div>
