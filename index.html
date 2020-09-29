@@ -14,6 +14,8 @@
           $(document).ready(function(){
             $(".navbarlink").click(function(e){
               e.preventDefault()
+              clearPanel("second-panel")
+              clearPanel("maincontent")
             if ($(this).attr("id") === "landing"){
               showPanel("landingcontent")
               clearPanel("second-panel")
@@ -21,6 +23,7 @@
             }
             else{
               hidePanel("landingcontent")
+              $("#maincontent").removeClass("article")
               if ($(this).attr("id") === "text"){
                 const url="https://raw.githubusercontent.com/scta-texts/UD1xh4/master/UD1xh4-7yMcbW/cod-u2dgeg_UD1xh4-7yMcbW.xml"
                 getText(url, "maincontent") 
@@ -44,6 +47,12 @@
               }
               else if ($(this).attr("id") === "adulterytext"){
                 const url="Texts/tsocmadultery.xml"
+                getText(url, "maincontent") 
+                clearPanel("second-panel")
+              }
+              else if ($(this).attr("id") === "article"){
+                const url="Texts/Article.xml"
+                $("#maincontent").addClass("article")
                 getText(url, "maincontent") 
                 clearPanel("second-panel")
               }
@@ -102,11 +111,11 @@
               <a class="navbar-brand navbarlink" id="landing">Exploring Bullinger</a>
             </div>
             <ul class="nav navbar-nav">
-              <li><a class="navbarlink" id="text">Text</a></li>
-              <li><a class="navbarlink" id="adulterytext">Adultery Text</a></li>
-              <li><a class="navbarlink" id="translation">Translation</a></li>
-              <li><a class="navbarlink" id="text-translation">Text-Translation</a></li>
               <li><a class="navbarlink" id="about">About</a></li>
+              <li><a class="navbarlink" id="text">D 5.10 Text</a></li>
+              <li><a class="navbarlink" id="translation">D 5.10 Translation</a></li>
+              <li><a class="navbarlink" id="text-translation">D 5.10 Text/Translation</a></li>
+              <li><a class="navbarlink" id="adulterytext">Adultery Text</a></li>
               <li><a class="navbarlink" id="article">Article</a></li>
               <li><a class="navbarlink" id="bibliography">Bibliography</a></li>
             </ul>

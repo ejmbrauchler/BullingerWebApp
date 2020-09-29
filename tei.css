@@ -5,7 +5,7 @@
 tei-div {
   display: block;
 }
-tei-p {
+tei-p:not([rend='footnote text']) {
   display: block;
   margin-top: .5em;
   margin-bottom: .5em;
@@ -19,7 +19,50 @@ tei-cb {
 tei-pb {
   display: none; 
 }
-tei-p::before {
+tei-p:not([rend='footnote text'])::before {
   counter-increment: tei-p;
   content: counter(tei-p);
+  padding-right: 10px;
+}
+
+
+tei-note{
+  display:none
+}
+
+.article tei-note{
+  display:inline
+}
+.article tei-note::after{
+content: "[" attr(n) "]";
+cursor: pointer;
+color: blue;
+padding: 0 4px;
+
+}
+
+
+
+.article tei-note span tei-p[rend~='footnote']{
+  display: none
+} 
+
+.article tei-note:hover span tei-p[rend~='footnote']{
+  position: fixed;
+  display: block;
+  background-color: black;
+  color: white;
+  opacity: 0.8;
+  padding: 10px 100px ;
+  width: 100%;
+  top: 80%;
+  height: 20%;
+  left: 0;
+
+
+
+}
+
+tei-publicationStmt{
+  display: none
 }

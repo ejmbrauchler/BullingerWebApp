@@ -239,7 +239,7 @@ var CETEI = (function () {
           notes.appendChild(note);
           return content;
         }],
-        ["_", ["(",")"]]
+        ["_", ["",""]]
       ],
       "table": function(elt) {
         let table = document.createElement("table");
@@ -272,9 +272,9 @@ var CETEI = (function () {
         }
         return table;
       },
-      "teiHeader": function(e) {
-        this.hideContent(e, false);
-      },
+      // "teiHeader": function(e) {
+      //   this.hideContent(e, false);
+      // },
       "title": [
         ["tei-titlestmt>tei-title", function(elt) {
           let title = document.createElement("title");

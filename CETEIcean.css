@@ -663,9 +663,9 @@ tei-recordhist {
   margin-bottom: 1em;
 }
 tei-ref {
-  color: #5f0000;
+  /* /* color: #5f0000; */
   text-decoration: underline;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 tei-remarks {
   font-weight: bold;
