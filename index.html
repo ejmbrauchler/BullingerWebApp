@@ -56,6 +56,12 @@
                 getText(url, "maincontent") 
                 clearPanel("second-panel")
               }
+              else if ($(this).attr("id") === "about"){
+                const url="Texts/About.xml"
+                $("#maincontent").addClass("article")
+                getText(url, "maincontent") 
+                clearPanel("second-panel")
+              }
 
               else{
                 clearPanel("second-panel")
