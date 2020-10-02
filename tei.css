@@ -1,7 +1,10 @@
 .textwrapper {
   counter-reset: tei-p;
 }
-
+tei-front{
+    display: none;
+}
+    
 tei-div {
   display: block;
 }

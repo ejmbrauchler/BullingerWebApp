@@ -2,7 +2,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title/>
+                <title>About "Exploring Bullinger"</title>
                 <author>Ema-Joanne Brauchler</author>
             </titleStmt>
             <editionStmt>
@@ -24,7 +24,7 @@
         </encodingDesc>
         <revisionDesc>
             <listChange>
-                <change><date>2020-09-29T21:11:35Z</date><name>Ema-Joanne Brauchler</name></change>
+                <change><date>2020-10-02T21:02:00Z</date><name>Ema-Joanne Brauchler</name></change>
             </listChange>
         </revisionDesc>
     </teiHeader>
@@ -61,12 +61,11 @@
                 reading experience. On this site you will also find a discussion and analysis of
                 Bullinger’s theology and what impacts it had on women in the 16<hi
                     rend="superscript">th</hi> century. </p>
-            <p rend="Normal">I am grateful for the time that this project allowed me to study the
-                texts that I hadn’t previously been able to research. With the generous grant from
-                the Center for the Humanities and the help of my mentor Dr. Jeffrey Witt, I was able
-                to create a research article and a website with detailed displays of our work during
-                the summer. I look forward to hearing a review of my work, and I thank you for
-                reading. </p>
+            <p>I am grateful for the time that this project allowed me to study the texts that I
+                hadn’t previously been able to research. With the generous grant from the Center for
+                the Humanities and the help of my mentor Dr. Jeffrey Witt, I was able to create a
+                research article and a website with detailed displays of our work during the summer.
+                I look forward to hearing a review of my work, and I thank you for reading. </p>
         </body>
     </text>
 </TEI>
